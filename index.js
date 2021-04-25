@@ -17,4 +17,4 @@ app.get('/:url', (req, res) => {
   } else res.send('fuck you')
 })
 
-app.listen(8080)
+app.listen(process.env.PORT)
